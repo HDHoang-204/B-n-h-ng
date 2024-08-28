@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": " https://hdhoang-204.github.io/B-n-h-ng/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -20,7 +23,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1",
-    "sort-by": "^1.2.0"
+    "sort-by": "^0.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -30,6 +33,7 @@
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "gh-pages": "^6.1.1",
     "sass": "^1.77.8",
     "vite": "^5.3.4"
   }
