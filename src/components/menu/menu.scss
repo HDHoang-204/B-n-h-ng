@@ -1,7 +1,6 @@
 .menu {
     width: 1360px;
-
-    height: auto;
+    background-image: url('https://bizweb.dktcdn.net/100/332/765/themes/894765/assets/bg_tab.png?1676258982209');
 
     h2 {
         text-align: center;
@@ -13,12 +12,13 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10%;
-        justify-content: center;
+        margin-left: 15px;
         margin-top: 10px;
 
+
         .listt {
-            background-color: #f8f8f8;
-            border: 1px solid #ddd;
+            background-color: white;
+            border: 1px solid #ebebeb;
             border-radius: 8px;
             padding: 10px;
             text-align: center;
@@ -60,10 +60,17 @@
                 opacity: 1;
             }
 
+            a {
+                text-decoration: none;
+                color: black;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
             p {
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 margin: 10px 0;
                 font-size: 1em;
+                color: #ef7147;
             }
 
 
